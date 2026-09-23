@@ -12,7 +12,7 @@ const laughAudio = new Audio("laugh.mp3");
 const loadingMessages = [
     "Loading Memories...",
     "Loading Happiness...",
-    "Loading laaliiiii's cute guide...",
+    "Loading Saniaaaa's cute guide...",
     "Preparing Buggu...",
     "Almost Ready..."
 ];
@@ -529,7 +529,7 @@ Darlingggg.
 Mammmmm Dhanyawad sabubele pakhare thiba ruu.
 Darlinggggg always falling for you.
 I Love You
-~Your's Gelhu Anil❤️
+~Your's Omm❤️
 
 `;
 
