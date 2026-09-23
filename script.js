@@ -324,7 +324,7 @@ const passwordMessage = document.getElementById("passwordMessage");
 
 let enteredPassword = "";
 
-const correctPassword = "0908";
+const correctPassword = "2409";
 
 keypadButtons.forEach(button => {
 
