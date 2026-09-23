@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>myfirstlove❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- LOADING SCREEN -->
+<!-- ========================= -->
+
+<div id="loadingScreen" class="screen active">
+
+    <div class="loadingBox">
+
+        <h1 class="logo">My Heart ❤️</h1>
+
+        <p id="loadingText">Loading Memories...</p>
+
+        <div class="loadingBar">
+
+            <div id="progressBar"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- ERROR SCREEN -->
+<!-- ========================= -->
+
+<div id="errorScreen" class="screen">
+
+    <div class="errorBox">
+
+        <h2>⚠ Memory Error</h2>
+
+        <p>Some memories seem to be corrupted...</p>
+
+        <p>Please wait while Buggu fixes everything.</p>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- BUGGU SCREEN -->
+<!-- ========================= -->
+
+<div id="bugguScreen" class="screen">
+
+    <div id="bugguContainer">
+
+        <img
+        src="buggu.png"
+        id="bugguImage"
+        alt="Buggu">
+
+        <div id="bugguDialogue">
+
+            <p id="bugguText"></p>
+
+        </div>
+
+        <button id="continueBtn">
+
+            Continue ❤️
+
+        </button>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- BUGGU EXAMINATION -->
+<!-- ========================= -->
+
+<div id="questionScreen" class="screen">
+
+    <div class="questionBox">
+
+        <img src="buggu.png"
+             id="questionBuggu"
+             alt="Buggu">
+
+        <h2 id="questionCount">
+            Question 1 / 5
+        </h2>
+
+        <h1 id="questionText">
+            Who is the cutest?
+        </h1>
+
+        <div class="optionArea">
+
+            <button id="option1">
+                ❤️ Him
+            </button>
+
+            <button id="option2">
+                🧸 Buggu
+            </button>
+
+        </div>
+
+        <p id="bugguReply"></p>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- MUSIC SCREEN -->
+<!-- ========================= -->
+
+<div id="musicScreen" class="screen">
+
+    <div class="musicBox">
+
+        <h1>🎵</h1>
+
+        <h2>Congratulations!</h2>
+
+        <p>You passed Buggu's examination ❤️</p>
+
+        <p>How would you like to continue?</p>
+
+        <button id="playMusicBtn">
+            ❤️ Play Our Song
+        </button>
+
+        <button id="silentBtn">
+            🤍 Continue Silently
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Floating Music Button -->
+
+<button id="musicToggle">
+
+🔇
+
+</button>
+
+<audio id="bgMusic" loop>
+
+<source src="her.mp3" type="audio/mpeg">
+
+</audio>
+<!-- ========================= -->
+<!-- PASSWORD SCREEN -->
+<!-- ========================= -->
+
+<div id="passwordScreen" class="screen">
+
+    <div class="passwordBox">
+
+        <h1>🔐 My heart's Security</h1>
+
+        <p>
+            This memory is protected.
+        </p>
+
+        <p>
+            Enter the special password.
+        </p>
+
+        <div id="passwordDisplay">
+
+            <span class="digit"></span>
+            <span class="digit"></span>
+            <span class="digit"></span>
+            <span class="digit"></span>
+
+        </div>
+
+        <div id="keypad">
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+
+            <button id="clearBtn">⌫</button>
+            <button>0</button>
+            <button id="enterBtn">❤️</button>
+
+        </div>
+
+        <p id="passwordMessage"></p>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- DIARY SCREEN -->
+<!-- ========================= -->
+
+<div id="diaryScreen" class="screen">
+
+    <div class="diaryBook">
+
+        <h2 id="diaryTitle">📖 Our Memories</h2>
+
+        <img id="diaryImage"
+             src="assets/diary/photo1.jpg"
+             alt="Memory">
+
+        <p id="diaryCaption">
+            Our beautiful story begin here ❤️
+        </p>
+
+        <div class="bugguComment">
+
+            <img src="buggu.png"
+                 alt="Buggu">
+
+            <p id="bugguDiaryText">
+                Hehee Hee... I'm excited to show these memories!
+            </p>
+
+        </div>
+
+        <div class="diaryButtons">
+
+            <button id="prevPage">⬅ Previous</button>
+
+            <button id="nextPage">Next ➡</button>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- LETTER SCREEN -->
+<!-- ========================= -->
+
+<div id="letterScreen" class="screen">
+
+    <div id="envelope">
+
+        <h2>💌</h2>
+
+        <h3>One Last Thing...</h3>
+
+        <p>
+            Before you leave...
+        </p>
+
+        <button id="openLetterBtn">
+            Open Letter ❤️
+        </button>
+
+    </div>
+
+    <div id="letterPaper">
+
+        <h2>For My Princess ❤️</h2>
+
+        <div id="letterContent">
+
+            <!-- YOUR LETTER WILL COME HERE -->
+
+        </div>
+
+        <img
+        id="letterBuggu"
+        src="buggu.png"
+        alt="Buggu">
+
+        <button id="continueEndingBtn">
+            Continue ❤️
+        </button>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- FINAL SCREEN -->
+<!-- ========================= -->
+
+<div id="finalScreen" class="screen">
+
+    <div class="finalBox">
+
+        <h1>🎉 Happy Anniversary Darlinggggg❤️</h1>
+
+        <h2>Thank You...</h2>
+
+        <p>
+            For every smile.
+        </p>
+
+        <p>
+            For every laugh.
+        </p>
+
+        <p>
+            For every beautiful memory.
+        </p>
+
+        <p>
+            And for being the most special person in my life. ❤️
+        </p>
+
+        <img id="finalBuggu"
+             src="buggu.png"
+             alt="Buggu">
+
+        <p id="goodbyeText">
+
+            Hehee Hee...
+
+            Come back whenever you miss these memories. 🧸❤️
+
+        </p>
+
+        <div class="finalButtons">
+
+            <button id="restartBtn">
+                🔄 Replay Our Story
+            </button>
+
+            <button id="exitBtn">
+                ❤️ Goodbye
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+<script src="script.js"></script>
+  </html>
