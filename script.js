@@ -596,7 +596,7 @@ document.getElementById("goodbyeText").innerHTML=`
 
 Thank you for taking this journey.
 
-Happy 1st Anniversary Babyyyyy.
+Happy Anniversary Babyyyyy.
     
 Darling we completed the first step together.
     
